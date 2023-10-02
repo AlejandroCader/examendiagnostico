@@ -1,6 +1,6 @@
 package Animales;
 
-public class Mamifero {
+public abstract class Mamifero {
     protected String habitat;
     protected float altura;
     protected float largo;
@@ -55,21 +55,9 @@ public class Mamifero {
         this.nombreCientifico = nombreCientifico;
     }
 
-    String comer(){
-        String comida = "Esta comiendo";
-        return comida;
-    }
-    String dormir(){
-        String mimir = "Esta durmiendo";
-        return mimir;
-    }
-    String correr(){
-        String corrida = "Esta corriendo";
-        return corrida;
-    }
-   String comunicarse(){
-        String comunicacion = "Esta comunicandose";
-        return comunicacion;
-    }
+    public abstract String comer();
+    public abstract String dormir();
+    public abstract String correr();
+    public abstract String comunicarse();
 
 }

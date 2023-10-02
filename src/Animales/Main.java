@@ -12,8 +12,10 @@ public class Main {
         animales.add(new Lobo("Montaña", 230, 415, 600, "Lobitus", "gris", 10, 20, "Lobato"));
         animales.add(new Perro("Casa", 115, 125, 240, "Perritu", "negro", 15, 245));
 
+
+
         for (int i=0;i<animales.size();i++) {
-            System.out.println(animales.get(i).toString());
+            System.out.println(animales.get(i).toString() + "\n");
         }
     }
 }

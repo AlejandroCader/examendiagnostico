@@ -1,6 +1,6 @@
 package Animales;
 
-public class Felino extends Mamifero{
+public abstract class Felino extends Mamifero{
     protected  float tamanoGarras;
     protected int velocidad;
 

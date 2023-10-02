@@ -22,23 +22,23 @@ public class Leon extends Felino{
     }
 
     @Override
-    String comer() {
-        return super.comer();
+    public String comer() {
+        return "Está comiendo";
     }
 
     @Override
-    String dormir() {
-        return super.dormir();
+    public String dormir() {
+        return "Está durmiendo";
     }
 
     @Override
-    String correr() {
-        return super.correr();
+    public String correr() {
+        return "Est corriendo";
     }
 
     @Override
-    String comunicarse() {
-        return super.comunicarse();
+    public String comunicarse() {
+        return "Está comunicandose";
     }
 
     @Override
